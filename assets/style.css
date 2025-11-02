@@ -3,10 +3,10 @@
   body { font-family: 'Roboto', sans-serif; background: #f9f9f9; color: #333; line-height: 1.6; }
 
 /* Header */
-  header { background: #1a1a1a; color: #fff; padding: 0.2rem 0; position: sticky; top: 0; z-index: 1000; }
-  header .container { width: 90%; max-width: 1100px; padding: 2rem; display: flex; justify-content: space-between; align-items: center; }
-  header h1 { font-size: 1.5rem; }
-  header nav a { color: #fff; text-decoration: none; padding: 1rem; font-weight: 500; transition: color 0.3s; }
+  header { background: #1a1a1a; color: #fff; padding: 0.5rem 0; z-index: 1000; }
+  header .container { width: 90%; max-width: 100%; padding: 0.5rem; display: flex; justify-content: space-between; align-items: center; }
+  header h1 { font-size: 1.2rem; }
+  header nav a { color: #fff; text-decoration: none; padding: 1rem; font-size: 1rem ; font-weight: 500; transition: color 0.3s; }
   header nav a:hover { color: #ff6600; }
 
 /* Sections */
@@ -23,7 +23,7 @@
   .project-card a.btn-secondary:hover { background: #ff6600; }
 
 /* Contact */
-  #contact { padding: 0.5rem 2rem 4rem; background: #fff; border-radius: 10px; margin: 2rem auto; width: 90%; max-width: 900px; text-align: center; }
+  #contact { padding: 0.5rem 1rem 4rem; background: #fff; border-radius: 10px; margin: 2rem auto; width: 80%; text-align: center; }
 
 /* Footer */
-  footer { text-align: center; padding: 1rem; background: #1a1a1a; color: #fff; margin-top: 4rem; }
+  footer { text-align: center; padding: 0.2rem; font-size: 0.7rem ; background: #1a1a1a; color: #fff; margin-top: 4rem; }
